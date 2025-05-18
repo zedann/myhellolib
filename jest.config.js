@@ -8,4 +8,6 @@ module.exports = {
   transform: {
     ...tsJestTransformCfg,
   },
+  testMatch: ["**/__tests__/**/*.ts"],
+  preset: "ts-jest",
 };
